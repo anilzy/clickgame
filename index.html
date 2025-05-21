@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>radarChart</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+Skill RadarChart
+<br>
+<br>
+<div class="container">
+  
+
+<div>
+
+  <input type="text" id="skillOne" placeholder="enter skill 1">
+<input type="number" id="levelOne" min="0" max="10" placeholder="level">
+
+
+</div>
+<br>
+<div>
+
+  <input type="text" id="skillTwo" placeholder="enter skill 2">
+<input type="number" id="levelTwo" min="0" max="10" placeholder="level">
+</div>
+<br>
+
+
+<div>
+  <input type="text" id="skillThree" placeholder="enter skill 3">
+<input type="number" id="levelThree" min="0" max="10" placeholder="level">
+</div>
+
+
+
+
+
+
+
+</div>
+<br>
+<button id="btn">Show</button>
+
+<br><br>
+
+
+
+
+
+  <svg height="300px" width="300px">
+
+<circle id="circleOne"/>
+
+
+<circle id="circleTwo"/>
+<text x="150px" y="50px" id="skillOnedisplay" text-anchor="middle"></text>
+
+
+<circle id="circleThree"/>
+<text x="80" y="240"  id="skillTwodisplay" text-anchor="middle"></text>
+
+
+
+<circle id="circleFour"/>
+<text x="220" y="240" id="skillThreedisplay" text-anchor="middle"></text>
+
+<polygon  fill="rgba(0, 128, 255, 0.2)" stroke="blue" />
+  </svg>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
