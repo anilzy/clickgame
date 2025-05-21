@@ -1,8 +1,26 @@
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-color: #111;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+        .circle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #00ffcc;
+  position: absolute;
+  box-shadow: 0 0 10px #00ffcc;
+  transform: translate(-50%,-50%);
+  animation: pop 0.3s ease-in-out;
 }
